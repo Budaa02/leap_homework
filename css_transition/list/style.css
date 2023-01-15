@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    background: aqua;
+    list-style: none;
+}
+ul li {
+   padding: 10px 20px;
+   text-align: center;
+   color:#fff;
+   margin:5px 0;
+   transition: .5s;
+}
+ul li:hover{
+    transform:scale(1.26);
+    background-color: red;
+}
